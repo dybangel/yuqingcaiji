@@ -1,0 +1,5 @@
+数据库使用mysql 
+数据库名称dedecmsv57utf8sp1bigscreen4
+数据库用户名root
+数据库密码123456
+web管理页面用户名admin 密码admin
