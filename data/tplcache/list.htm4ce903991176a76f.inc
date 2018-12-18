@@ -1,0 +1,47 @@
+<?php
+$z[0]=Array("field","",308,331);
+$z[0][4]['name']="typename";
+$z[1]=Array("global","",334,367);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("type","\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"[field:typename/]\" href=\"[field:typeurl/]\" />\n",467,604);
+$z[2][4]['typeid']="1";
+$z[3]=Array("type","\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"[field:typename/]\" href=\"[field:typeurl/]\" />\n",605,742);
+$z[3][4]['typeid']="2";
+$z[4]=Array("type","\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"[field:typename/]\" href=\"[field:typeurl/]\" />\n",743,880);
+$z[4][4]['typeid']="3";
+$z[5]=Array("include","",2034,2068);
+$z[5][4]['filename']="nav.htm";
+$z[6]=Array("field","",2278,2307);
+$z[6][4]['name']="position";
+$z[7]=Array("list","\n	<article id=\"post-304\" class=\"post-304 post type-post status-publish format-standard hentry category-changdao-jingdian\">\n				<header class=\"entry-header\">\n			\n						<h1 class=\"entry-title\">\n				<a href=\"[field:arcurl/]\" rel=\"bookmark\">[field:title/]</a>\n			</h1>\n										<div class=\"comments-link\">\n					<a href=\"[field:arcurl/]#respond\" title=\"[field:title/]\"><span class=\"leave-reply\">发表回复</span></a>				</div><!-- .comments-link -->\n					</header><!-- .entry-header -->\n\n				<div class=\"entry-content\">\n			<p>[field:description/]...</p>\n<p><img alt=\"\" src=\"[field:picname/]\" /></p>\n<p>[field:info function='cn_substr(@me,100)'/] <a href=\"[field:arcurl/]\" class=\"more-link\">继续阅读 <span class=\"meta-nav\">&rarr;</span></a></p>\n					</div><!-- .entry-content -->\n		\n		<footer class=\"entry-meta\">\n			本条目发布于<a href=\"[field:arcurl/]\" title=\"上午10:19\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2014-04-12T10:19:44+00:00\">[field:pubdate function=\"GetDateMK(@me)\"/]</time></a>。属于<a href=\"[field:typeurl /]\" rel=\"category tag\">[field:typename /]</a>分类。<span class=\"by-author\">作者是<span class=\"author vcard\"><a class=\"url fn n\" href=\"#\" title=\"查看所有由[field:writer /]发布的文章\" rel=\"author\">[field:writer /]</a></span>。</span>								</footer><!-- .entry-meta -->\n	</article><!-- #post -->\n",2363,3769);
+$z[7][4]['pagesize']="5";
+$z[7][4]['titlelen']="38";
+$z[8]=Array("pagelist","",3804,3833);
+$z[8][4]['listsize']="4";
+$z[9]=Array("global","",4019,4044);
+$z[9][4]['name']="cfg_cmsurl";
+$z[10]=Array("global","",4575,4605);
+$z[10][4]['name']="cfg_webi";
+$z[11]=Array("global","",4828,4858);
+$z[11][4]['name']="cfg_webi";
+$z[12]=Array("global","",5025,5055);
+$z[12][4]['name']="cfg_lxdz";
+$z[13]=Array("arclist","\n			<li><a href=\"[field:arcurl /]\">[field:title /]</a></li>\n                ",5246,5393);
+$z[13][4]['row']="10";
+$z[13][4]['titlelen']="24";
+$z[13][4]['orderby']="pubdate";
+$z[14]=Array("arclist","\n		<li class=\"recentcomments\"><span class=\"comment-author-link\">[field:typename /]</span>《<a href=\"[field:arcurl /]\">[field:title /]</a>》</li>\n		",5564,5784);
+$z[14][4]['row']="10";
+$z[14][4]['titlelen']="24";
+$z[14][4]['orderby']="commend";
+$z[15]=Array("flink","\n	<li>[field:link /]</li>\n	",5918,5992);
+$z[15][4]['linktype']="2";
+$z[15][4]['row']="10";
+$z[16]=Array("channel","\n<li class=\"cat-item cat-item-6\"><a href=\"[field:typelink/]\" >[field:typename/]</a></li>\n",6120,6271);
+$z[16][4]['type']="top";
+$z[16][4]['noself']="yes";
+$z[16][4]['row']="10";
+$z[17]=Array("include","",6778,6814);
+$z[17][4]['filename']="dbmbs.htm";
+
+?>

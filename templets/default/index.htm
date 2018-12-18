@@ -1,0 +1,349 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="author" content="order by dede58.com" />
+<link href="{dede:global.cfg_templeturl /}/default/style/disaiwang.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+{dede:include filename="toubu.htm"/}
+<div class="zb">
+  <table width="980" cellspacing="0" cellpadding="0" border="0" style="border:1px solid #D9D9D9;">
+    <tbody>
+      <tr>
+        <td width="75" align="center"><img width="75" height="75" src="templets/default/images/tt_1.jpg"></td>
+        <td align="center"><table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody>
+              <tr>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td height="22" align="center" class="pb05">{dede:arclist row=1 orderby=pubdate  titlelen='44'  infolen='64' flag=e01 } <b><big><big>
+                  <h1>[ <a href="[field:arcurl/]"><font  color="red">[field:title/]...</font> </a>]</h1>
+                  </big></big></b> {/dede:arclist} </td>
+              </tr>
+            </tbody>
+          </table></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<style type="text/css">
+  .mydiv_left{
+    width: 75%;
+ /*   background: red;*/
+    float: left;
+  }
+  .mydiv_right{
+    width: 25%;
+   /* background: black;*/
+    float: left;
+       /* margin-left: -3%;*/
+  }
+  .mydiv_xinw{
+        border: #d9d9d9 1px solid;
+            width: 108%;
+    margin-left: -10%;
+    margin-top: 3%;
+  }
+  .mydiv_xinw a {color: #525252;
+    font-size: 0.89rem;
+    font-family: "宋体";
+
+  }
+  .mydiv_xinw li{
+    padding-left: 10%;
+    padding-top: 3%;
+  }
+  .mysheet1{
+        color: #fff;
+    font-size: 1.5rem;
+    padding-top: 1%;
+  }
+</style>
+<div class="zb">
+  <div class="mydiv_left">
+    
+    <!-- 幻灯开始 -->
+<div class="zb">
+  <div class="hd lf">
+   <!--  <div class="hdd"> 
+      <script language='javascript'>
+linkarr = new Array();
+picarr = new Array();
+textarr = new Array();
+var swf_width=280;
+var swf_height=255;
+var configtg="0xffffff:文字颜色|1:文字位置|0x000000:文字背景颜色|30:文字背景透明度|0xffffff:按键文字颜 色|0x4f6898:按键默认颜色|0x000033:按键当前颜色|3:自动播放时间|3:图片过渡效果|1:是否显示按钮|_blank:打开新窗 口";
+var files = "";
+var links = "";
+var texts = "";
+//这里设置调用标记
+{dede:arclist row='5'  }
+linkarr[[field:global.autoindex/]] = "[field:arcurl/]";
+picarr[[field:global.autoindex/]]  = "[field:litpic/]";
+textarr[[field:global.autoindex/]] = "[field:title function='html2text(@me)'/]";
+{/dede:arclist}
+for(i=1;i<picarr.length;i++){
+if(files=="") files = picarr[i];
+else files += "|"+picarr[i];
+}
+for(i=1;i<linkarr.length;i++){
+if(links=="") links = linkarr[i];
+else links += "|"+linkarr[i];
+}
+for(i=1;i<textarr.length;i++){
+if(texts=="") texts = textarr[i];
+else texts += "|"+textarr[i];
+}
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+document.write('<param name="movie" value="{dede:global.cfg_templeturl /}/default/images/bcastr3.swf"><param name="quality" value="high">');
+document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'">');
+document.write('<embed src="{dede:global.cfg_templeturl /}/default/images/bcastr3.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'&bcastr_config='+configtg+'&menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>'); 
+</script> 
+    </div> -->
+    <!-- 幻灯 over -->
+    <div class="ty">
+      <h3 class="zal">信息泄密</h3>
+      <p class="zag"><a href="{dede:global.cfg_cmsurl/}/plus/list.php?tid=1" target="_blank"  >更多>></a></p>
+    </div>
+    <div class="hdxx">
+      <ul class="scp">
+        {dede:arclist  titlelen='36' row='13' typeid='1' }
+        <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+        {/dede:arclist}
+      </ul>
+    </div>
+    <!-- 幻灯底部 over --> 
+  </div>
+  <!-- 幻灯 over -->
+  <div class="xinw lf">
+   
+   <!--  <div class="xinw1"> {dede:arclist row=2 orderby=pubdate  titlelen='36'  infolen='106'  typeid='1,2,3' flag='h' } -->
+     <!--  <div class="xinw1t"><a href="[field:arcurl/]" target="_blank" title="[field:title/]"> [field:title/] </a></div>
+      <div class="xinw1z">[field:info/]...<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[详细]</a></div> -->
+      <!-- {/dede:arclist} </div> -->
+    <ul class="scp">
+       <div class="ty">
+      <h3 class="zal">实时采集信息</h3>
+      <p class="zag"><a href="{dede:global.cfg_cmsurl/}/plus/list.php?tid=-1" target="_blank"  >更多>></a></p>
+    </div>
+      {dede:arclist  titlelen='52' row='13' typeid='1,2,3'}
+      <div style="width: 100%">
+          <div style="width: 80%;float: left;"><li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li></div>
+          <div style="width: 20%;float:left;    padding-top: 1.5%;">[field:pubdate function='strftime("%m-%d",@me)'/]</div>
+      <div>
+      
+      {/dede:arclist}
+    </ul>
+  </div>
+
+  <!-- 老革命区 over --> 
+</div>
+<!-- 新闻 over -->
+<div class="zb">
+  <div class="tw1 lf">
+ <!--    <div class="ty">
+      <h3 class="zal">信息内容安全事件</h3>
+      <p class="zag"><a href="#" target="_blank"  >更多>></a></p>
+    </div> -->
+ 
+    <!-- 图文左边 上 over -->
+    <div class="tw1x">
+      <div class="tw1x1 lf">
+        <div class="ty">
+          <h3 class="zal">网络攻击事件</h3>
+          <p class="zag"><a href="{dede:global.cfg_cmsurl/}/plus/list.php?tid=2" target="_blank"  >更多>></a></p>
+        </div>
+        <div class="hdxx">
+          <dl class="scp">
+           
+           {dede:arclist  titlelen='36' row='5' typeid='2' }
+            <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+          <!--   <dt><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" border="0" width="143" height="108"  /></a></dt> -->
+            {/dede:arclist}
+            <dd>
+              <ul class="scp">
+                {dede:arclist  titlelen='22' row='5' typeid='29'  flag='c'}
+                <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+                {/dede:arclist}
+              </ul>
+            </dd>
+          </dl>
+          <ul class="shh">
+            {dede:arclist  titlelen='24' row='8' typeid='29' noflag='c' }
+            <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+            {/dede:arclist}
+          </ul>
+        </div>
+      </div>
+      <!-- 图文左边 下 左 over -->
+      <div class="tw1x1 rf">
+        <div class="ty">
+          <h3 class="zal">有害程序事件</h3>
+          <p class="zag"><a href="{dede:global.cfg_cmsurl/}/plus/list.php?tid=3" target="_blank"  >更多>></a></p>
+        </div>
+        <div class="hdxx">
+          <dl class="scp">
+            {dede:arclist  titlelen='36' row='5' typeid='3' }
+            <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+            {/dede:arclist}
+            <dd>
+              <ul class="scp">
+                {dede:arclist  titlelen='22' row='5' typeid='30' flag='c' }
+                <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+                {/dede:arclist}
+              </ul>
+            </dd>
+          </dl>
+          <ul class="shh">
+            {dede:arclist  titlelen='24' row='8' typeid='30' noflag='c' }
+            <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+            {/dede:arclist}
+          </ul>
+        </div>
+      </div>
+      <!-- 图文左边 下 右 over --> 
+    </div>
+    <!-- 图文左边 下 over --> 
+  </div>
+  <!-- 图文左边 over -->
+  <!-- 图文右边 over --> 
+</div>
+<!-- 图文 over -->
+
+<div class="zb"> {dede:myad name='5'/} </div>
+
+<!-- 广告 over -->
+<div class="zb">
+  <div class="tw1 lf">
+    <div class="yhh">
+      <h3 class="mysheet1">事件级别</h3>
+      <!-- <p > <a href="/plus/list.php?tid=35" target="_blank"  >部委信息</a> | <a href="/plus/list.php?tid=36" target="_blank"  >政坛人物</a> | <a href="/plus/list.php?tid=37" target="_blank"  >时事观察</a> | <a href="/plus/list.php?tid=38" target="_blank"  >政策解读</a> | <a href="/plus/list.php?tid=39" target="_blank"  >法治生活</a> | <a href="/plus/list.php?tid=40" target="_blank"  >法律法规</a></p> -->
+    </div>
+    
+    <!-- 图文左边 上 over -->
+    <div class="tw1xff">
+      <div class="renw lf">
+        <div class="ty">
+          <h3 class="zaf">特别重大事件（Ⅰ级）</h3>
+          <p class="zag"><!-- <a href="{dede:global.cfg_cmsurl/}/plus/list.php?tid=35" target="_blank"  >更多>></a> --></p>
+        </div>
+        <dl class="qub">
+         <div class="hdxx">
+      <ul class="scp">
+        {dede:arclist  titlelen='36' row='5' typeid='1,2,3' flag='e01' }
+        <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+        {/dede:arclist}
+      </ul>
+    </div>
+     
+        </dl>
+      
+      </div>
+      <!-- 图文左边 下 左 over -->
+      <div class="renw lf">
+        <div class="ty">
+          <h3 class="zaf">重大事件（Ⅱ级）</h3>
+          <p class="zag"><!-- <a href="/plus/list.php?tid=36" target="_blank"  >更多>></a> --></p>
+        </div>
+        <dl class="qub">
+          <div class="hdxx">
+      <ul class="scp">
+        {dede:arclist  titlelen='36' row='5' typeid='1,2,3' flag='e02' }
+        <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+        {/dede:arclist}
+      </ul>
+    </div>
+        </dl>
+      <!--   <ul class="shh">
+          {dede:arclist  titlelen='24' row='8' typeid='36' noflag='c' }
+          <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+          {/dede:arclist}
+        </ul> -->
+      </div>
+      <!-- 图文左边 下 左 over -->
+      <div class="renw lf">
+        <div class="ty">
+          <h3 class="zaf">较大事件（Ⅲ级）</h3>
+          <p class="zag"><!-- <a href="/plus/list.php?tid=37" target="_blank"  >更多>></a> --></p>
+        </div>
+        <dl class="qub">
+         <div class="hdxx">
+      <ul class="scp">
+        {dede:arclist  titlelen='36' row='5' typeid='1,2,3' flag='e03' }
+        <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+        {/dede:arclist}
+      </ul>
+    </div>
+        </dl>
+       <!--  <ul class="shh">
+          {dede:arclist  titlelen='24' row='8' typeid='37'  flag='c' }
+          <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+          {/dede:arclist}
+        </ul> -->
+      </div>
+      <!-- 图文左边 下 左 over -->
+      <div class="renw lf">
+        <div class="ty">
+          <h3 class="zaf">一般事件（Ⅳ级）</h3>
+          <p class="zag"><!-- <a href="/plus/list.php?tid=39" target="_blank"  >更多>></a> --></p>
+        </div>
+        <dl class="qub">
+          <div class="hdxx">
+      <ul class="scp">
+        {dede:arclist  titlelen='36' row='5' typeid='1,2,3' flag='e04' }
+        <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+        {/dede:arclist}
+      </ul>
+    </div>
+        </dl>
+      <!--   <ul class="shh">
+          {dede:arclist  titlelen='24' row='8' typeid='39' flag='c' }
+          <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+          {/dede:arclist}
+        </ul> -->
+      </div>
+      <!-- 图文左边 下 左 over --> 
+      
+    </div>
+    <!-- 图文左边 下 over --> 
+  </div>
+  <!-- 图文左边 over -->
+
+  <!-- 图文右边 over --> 
+</div>
+<!-- 图文 over -->
+<div class="zb">
+  
+
+</div>
+<!-- 图文 over end -->
+  </div>
+  <div class="mydiv_right">
+   
+ <div class="mydiv_xinw lf"> 
+<div class="ty">
+      <h3 class="zal">关键词列表</h3>
+      <p class="zag"><a href="{dede:global.cfg_cmsurl/}/plus/list.php?tid=-1" target="_blank"  >更多>></a></p>
+  </div>
+  {dede:loop table='dede58_arctype' sort='id' row='30' if='id>0'}
+        <!--     <dl class=""> -->
+             <!--  <dt class=""> -->
+
+        <li><a href="/bigscreen4/plus/list.php?tid=[field:id/]">[field:typename/]</a></li>
+               <!--  <span class="time">[field:att/]</span></dt> -->
+             <!--  <dd class="info"><span class="tt">留言内容</span><span class="text">[field:content/]...</span></dd> -->
+           <!--  </dl> -->
+ {/dede:loop} </div>
+  
+  </div>
+</div>
+</body>
+</html>

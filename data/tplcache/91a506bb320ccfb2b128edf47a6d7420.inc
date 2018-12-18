@@ -1,0 +1,1 @@
+<div class="iim lf"> <a href="[field:arcurl/]" target="_blank" title="[field:title/]"><img src="[field:litpic/]" border="0" width="130" height="90"  /><span class="title">[field:title/]</span></a> </div>

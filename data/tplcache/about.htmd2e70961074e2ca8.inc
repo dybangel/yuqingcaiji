@@ -1,0 +1,44 @@
+<?php
+$z[0]=Array("field","",308,331);
+$z[0][4]['name']="typename";
+$z[1]=Array("global","",334,367);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("type","\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"[field:typename/]\" href=\"[field:typeurl/]\" />\n",590,727);
+$z[2][4]['typeid']="1";
+$z[3]=Array("type","\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"[field:typename/]\" href=\"[field:typeurl/]\" />\n",728,865);
+$z[3][4]['typeid']="2";
+$z[4]=Array("type","\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"[field:typename/]\" href=\"[field:typeurl/]\" />\n",866,1003);
+$z[4][4]['typeid']="3";
+$z[5]=Array("include","",2140,2174);
+$z[5][4]['filename']="nav.htm";
+$z[6]=Array("field","",2424,2447);
+$z[6][4]['name']="typename";
+$z[7]=Array("field","",2498,2519);
+$z[7][4]['name']="content";
+$z[8]=Array("global","",5320,5345);
+$z[8][4]['name']="cfg_cmsurl";
+$z[9]=Array("global","",5883,5913);
+$z[9][4]['name']="cfg_webi";
+$z[10]=Array("global","",6136,6166);
+$z[10][4]['name']="cfg_webi";
+$z[11]=Array("global","",6332,6362);
+$z[11][4]['name']="cfg_lxdz";
+$z[12]=Array("arclist","\n			<li><a href=\"[field:arcurl /]\">[field:title /]</a></li>\n                ",6561,6708);
+$z[12][4]['row']="10";
+$z[12][4]['titlelen']="24";
+$z[12][4]['orderby']="pubdate";
+$z[13]=Array("arclist","\n		<li class=\"recentcomments\"><span class=\"comment-author-link\">[field:typename /]</span>《<a href=\"[field:arcurl /]\">[field:title /]</a>》</li>\n		",6881,7101);
+$z[13][4]['row']="10";
+$z[13][4]['titlelen']="24";
+$z[13][4]['orderby']="commend";
+$z[14]=Array("flink","\n	<li>[field:link /]</li>\n	",7237,7311);
+$z[14][4]['linktype']="2";
+$z[14][4]['row']="10";
+$z[15]=Array("channel","\n<li class=\"cat-item cat-item-6\"><a href=\"[field:typelink/]\" >[field:typename/]</a></li>\n",7439,7590);
+$z[15][4]['type']="top";
+$z[15][4]['noself']="yes";
+$z[15][4]['row']="10";
+$z[16]=Array("include","",8098,8134);
+$z[16][4]['filename']="dbmbs.htm";
+
+?>

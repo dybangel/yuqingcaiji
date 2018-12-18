@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+
+<link href="{dede:global.cfg_templeturl /}/default/style/disaiwang.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+{dede:include filename="toubu.htm"/}
+
+<div class="zb">
+  <div class="lb lf">
+    <div class="wz">您所在的位置：{dede:field name='position'/}</div>
+    <!-- 位置 over -->
+    <h1>{dede:field.title/}</h1>
+    <!-- 标题 over -->
+    <div class="nrx">
+        采集时间： {dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/} 作者：{dede:field.writer/}  来源：{dede:field.source/}  点击: <script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}" type='text/javascript' language="javascript"></script>次
+    </div>
+     <div class="nrx">
+        原网址：<a href="{dede:field.srcurl/}">{dede:field.srcurl/}</a> 
+    </div>
+    
+    <div class="nr">
+    
+    
+ {dede:field.body/}
+ 
+<p style="float:right; color:#FF6666;"> (采集人：{dede:adminname/})</p>
+    
+      <div class="dede_pages">
+  	  <ul class="pagelist">
+  		  {dede:pagebreak/}
+ 		  </ul>
+		  </div>
+  
+    </div>
+    <!-- 内容 over -->
+    <div class="shang">
+      <div class="shang1">{dede:prenext get='pre'/}</div>
+      <div class="shang2">{dede:prenext get='next'/}</div>
+    </div>
+    <!-- 上下篇 over -->
+    <div class="nrxw">
+    
+      <div class="nrxw1 lf">
+        <div class="ty">
+      <h3 class="zal">最新采集</h3>
+      <p class="zag"></p>
+        </div>
+    
+        <div class="nrxw1f">
+      <ul class="scp">
+{dede:arclist  titlelen='40' row='5' typeid='' }
+  <li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+{/dede:arclist}
+
+
+      </ul>
+        </div>
+      </div>
+      
+   <!--    <div class="nrxw1 rf">
+        <div class="ty">
+      <h3 class="zal">推荐文章</h3>
+      <p class="zag"></p>
+        </div>
+    
+        <div class="nrxw1f">
+      <ul class="scp">
+{dede:arclist type='commend' titlelen='40' row='5'} <li><a title="[field:title function='htmlspecialchars(@me)'/] " href="[field:arcurl /]">[field:title /]</a></li> {/dede:arclist}
+
+      </ul>
+        </div>
+      </div> -->
+      
+      
+    </div>
+    <!-- 内容新闻 over -->
+  </div>
+  <!-- 图文左边 over -->
+  <div class="tw2 rf">  
+  {dede:myad name='2'/}  
+ <!-- 栏目列表over --> 
+  
+  <!--   <div class="ty">
+    
+      <h3 class="zal">国际新闻</h3>
+      <p class="zag"><a href="/plus/list.php?tid=29" target="_blank"  >更多>></a></p>
+    </div>
+    
+    <div class="tw2z">
+    
+{dede:arclist row=1 orderby=pubdate type='image.' titlelen='20'  infolen='80'  typeid='29' flag='c'}
+      <dl class="twdlz">
+        <dt><a href="[field:arcurl/]" target="_blank" title="[field:title/]"><img src="[field:litpic/]" border="0" width="108" height="81"  /></a></dt>
+        <dd>
+        <span class="title"><a href="[field:arcurl/]" target="_blank" title="[field:title/]"> [field:title/] </a></span>
+        <span>[field:info/]…</span>
+        </dd>
+      </dl>
+{/dede:arclist}	
+
+
+      <ul class="scp">
+{dede:arclist  titlelen='32' row='10' typeid='29' }
+<li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+{/dede:arclist}
+
+            </ul>
+    </div> -->
+    <!-- 图文右边 新闻 over -->
+<!--     <div class="ty mor4">
+      <h3 class="zal">民生新闻</h3>
+      <p class="zag"><a href="/plus/list.php?tid=30" target="_blank"  >更多>></a></p>
+    </div>
+    
+    <div class="tw2z">
+    
+{dede:arclist row=1 orderby=pubdate type='image.' titlelen='20'  infolen='80'  typeid='30' flag='c'}
+      <dl class="twdlz">
+        <dt><a href="[field:arcurl/]" target="_blank" title="[field:title/]"><img src="[field:litpic/]" border="0" width="108" height="81"  /></a></dt>
+        <dd>
+        <span class="title"><a href="[field:arcurl/]" target="_blank" title="[field:title/]"> [field:title/] </a></span>
+        <span>[field:info/]…</span>
+        </dd>
+      </dl>
+{/dede:arclist}
+
+
+      
+      
+      <ul class="scp">
+{dede:arclist  titlelen='32' row='10' typeid='30' }
+<li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+{/dede:arclist}
+      </ul>
+    </div> -->
+    <!-- 图文右边 基地 over -->
+    <div class="ty mor4">
+      <h3 class="zal">最新采集</h3>
+      <p class="zag"><a href="#" target="_blank"  ></a></p>
+    </div>
+    
+    <div class="tw2z">
+    
+    
+{dede:arclist row=1 orderby=pubdate type='image.' titlelen='20'  infolen='80'  typeid='' flag='c'}
+      <dl class="twdlz">
+        <dt><a href="[field:arcurl/]" target="_blank" title="[field:title/]"><img src="[field:litpic/]" border="0" width="108" height="81"  /></a></dt>
+        <dd>
+        <span class="title"><a href="[field:arcurl/]" target="_blank" title="[field:title/]"> [field:title/] </a></span>
+        <span>[field:info/]…</span>
+        </dd>
+      </dl>
+{/dede:arclist}
+      
+      <ul class="scp">
+{dede:arclist  titlelen='32' row='10' typeid='' }
+<li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+{/dede:arclist}
+      </ul>
+    </div>
+    <!-- 图文右边 基地 over -->
+<!--     <div class="ty mor4">
+      <h3 class="zal">推荐文章</h3>
+      <p class="zag"><a href="#" target="_blank"  ></a></p>
+    </div>
+    
+    <div class="tw2zf">
+    {dede:arclist row=1 orderby=pubdate type='image.' titlelen='20'  infolen='80'  type='commend' flag='c'}
+      <dl class="twdlz">
+        <dt><a href="[field:arcurl/]" target="_blank" title="[field:title/]"><img src="[field:litpic/]" border="0" width="108" height="81"  /></a></dt>
+        <dd>
+        <span class="title"><a href="[field:arcurl/]" target="_blank" title="[field:title/]"> [field:title/] </a></span>
+        <span>[field:info/]…</span>
+        </dd>
+      </dl>
+{/dede:arclist}
+      <ul class="scp">
+{dede:arclist  titlelen='32' row='10' type='commend' }
+<li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+{/dede:arclist}
+      </ul>
+    </div> -->
+    <!-- 图文右边 特色 over -->
+  </div>
+  <!-- 图文右边 over -->
+</div>
+<!-- 图文 over -->
+
+<!-- {dede:include filename="dibu.htm"/} -->
+</body>
+</html>

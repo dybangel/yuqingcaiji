@@ -1,0 +1,4 @@
+INSERT INTO `dede58_arcatt_new` VALUES('2','A2','重大事件（Ⅱ级）');
+INSERT INTO `dede58_arcatt_new` VALUES('3','A3','较大事件（Ⅲ级）');
+INSERT INTO `dede58_arcatt_new` VALUES('4','A4','一般事件（Ⅳ级）');
+INSERT INTO `dede58_arcatt_new` VALUES('1','A1','特别重大事件');

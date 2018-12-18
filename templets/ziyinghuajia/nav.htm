@@ -1,0 +1,25 @@
+
+<header id="masthead" class="site-header" role="banner">
+  <hgroup>
+    <h1 class="site-title"><a href="/" title="{dede:global name='cfg_webname'/}" rel="home">{dede:global name='cfg_webname'/}</a></h1>
+    <h2 class="site-description">{dede:global name='cfg_webbiao'/}</h2>
+  </hgroup>
+  <nav id="site-navigation" class="main-navigation" role="navigation">
+    <button class="menu-toggle">菜单</button>
+    <a class="assistive-text" href="#content" title="跳至内容">跳至内容</a>
+    <div class="menu-mymenu-container">
+      <ul id="menu-mymenu" class="nav-menu">
+        <li id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-24"> <a href="/">　首页</a></li>
+        {dede:channel type='top' row='8' currentstyle="
+        <li id='menu-item-40' class='menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-40'><a href='~typelink~'>~typename~</a></li>
+        "}
+        <li id="menu-item-60" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-60"><a href="[field:typeurl/]">[field:typename/]</a></li>
+        {/dede:channel}
+      </ul>
+    </div>
+  </nav>
+  <!-- #site-navigation --> 
+  
+  <a href="{dede:global name='cfg_basehost'/}"><img src="/pic/cropped-dating.jpg" class="header-image" width="960" height="250" alt="{dede:global name='cfg_webname'/}" /></a> </header>
+<!-- #masthead --> 
+

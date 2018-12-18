@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+<title>百度分享插件</title>
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+</head>
+<body background="images/allbg.gif" leftmargin="8" topmargin="8">
+
+<div class="bodytitle">
+	<div class="bodytitleleft"></div>
+	<div class="bodytitletxt" style="padding-left:10px;">辅助插件</div>
+</div><table width="98%" border="0" align="center" cellpadding="4" cellspacing="1" class="tbtitle" style="background:#CFCFCF;">
+  <tr>
+    <td bgcolor="#EDF9D5" colspan="2" background='images/tbg.gif' style="padding-left:10px;">
+    	<strong>百度分享插件</strong>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF" colspan="2">
+    	<p>百度分享是一个提供网页地址收藏、分享及发送的WEB2.0按钮工具，借助百度分享按钮，网站的浏览者可以方便的分享内容到人人网、开心网、QQ空间、新浪微博等一系列SNS站点。 网站主可以在百度分享网站中获得分享按钮JS代码，嵌入到自己的网站，让网站链接分享到互联网各个角落！</p>
+    	<p> <a href="http://share.baidu.com" target="_blank">点击这里访问百度分享官方网站</a></p>
+  </tr>
+  <form id="form2" name="form1" method="post" action="?do=yes" target="stafrm">
+  <tr>
+    <td colspan="2" bgcolor="#F9FCEF">&nbsp;<b>设置：</b></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">&nbsp;<b>百度分享代码：</b></td>
+    <td bgcolor="#FFFFFF">&nbsp;
+      <textarea name="b_code" rows="10" cols="75">
+<!-- Baidu Button BEGIN -->
+    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+        <span class="bds_more">分享到：</span>
+        <a class="bds_qzone"></a>
+        <a class="bds_tsina"></a>
+        <a class="bds_tqq"></a>
+        <a class="bds_renren"></a>
+    </div>
+    <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0" ></script>
+    <script type="text/javascript" id="bdshell_js"></script>
+    <script type="text/javascript">
+        document.getElementById("bdshell_js").src = "http://share.baidu.com/static/js/shell_v2.js?t=" + new Date().getHours();
+    </script>
+<!-- Baidu Button END -->
+	</textarea>
+     </td>
+</tr>
+<tr>
+    <td bgcolor="#FFFFFF">&nbsp;<b>自定义分享内容</b></td>
+    <td bgcolor="#FFFFFF">&nbsp;
+      <input name="b_content" type="text" id="textfield" value="" size="30" class='alltxt' />
+     </td>
+</tr>
+  <tr>
+    <td colspan="2" align="center" bgcolor="#FFFFFF">
+    	<input name="button" type="submit" class="np coolbg" id="button" value="生成文件" />
+    </td>
+  </tr>
+</form>
+</table>
+</body>
+</html>

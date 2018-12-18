@@ -1,0 +1,1 @@
+<li class="recentcomments"><span class="comment-author-link">[field:typename /]</span>《<a href="[field:arcurl /]">[field:title /]</a>》</li>

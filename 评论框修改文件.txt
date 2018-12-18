@@ -1,0 +1,9 @@
+
+建议重新注册一个网站专用的畅言评论框代码
+
+
+/templets/ziyinghuajia/pinglun.htm  打开这个文件，注意编码utf-8 如果乱码就是编码出错 转换一下就好了
+
+
+
+

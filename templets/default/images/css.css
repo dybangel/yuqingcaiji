@@ -1,0 +1,276 @@
+body,td,th {
+	font-family: 宋体;
+	font-size: 12px;
+	color: #a5a5a5;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url("bj.gif"/*tpa=http://in0574.com/tool/images/bj.gif*/);
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+}
+.t_1 {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #314651;
+	text-decoration: none;
+}
+.t_14 {
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: bold;
+	color: #314651;
+	text-decoration: none;
+}
+.t_hui {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+.t_hong {
+	font-family: "宋体";
+	font-size: 14px;
+	font-weight: bold;
+	color: #ae0000;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+.t_rq {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ae0000;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+.t_2 {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #2864a6;
+	text-decoration: none;
+}
+.kuang {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #d5dfe8;
+	border-bottom-color: #d5dfe8;
+	border-left-color: #d5dfe8;
+}
+.kuang_2 {
+	border: 1px solid #b4b4b4;
+	height: 18px;
+}
+
+.zi_gao {
+	line-height: 22px;
+}
+.t_lan {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #314651;
+	text-decoration: none;
+}
+.t_bai {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+.t_5 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #d70000;
+	text-decoration: none;
+}
+a.b:link {
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+}
+a.b:visited {
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+}
+a.b:hover {
+	font-size: 12px;
+	color: #ff0000;
+	text-decoration: none;
+}
+a.hong:link {
+	font-size: 12px;
+	color: #ff0000;
+	text-decoration: none;
+}
+a.hong:visited {
+	font-size: 12px;
+	color: #ff0000;
+	text-decoration: none;
+}
+a.hong:hover {
+	font-size: 12px;
+	color: #ff0000;
+	text-decoration: underline;
+}
+a.c:link {
+	font-size: 14px;
+	color: #2864a6;
+	text-decoration: underline;
+}
+a.c:visited {
+	font-size: 14px;
+	color: #2864a6;
+	text-decoration: underline;
+}
+a.c:hover {
+	font-size: 14px;
+	color: #ff0000;
+	text-decoration: none;
+}
+.t_hei {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.weather {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #d5dfe8;
+	border-bottom-color: #d5dfe8;
+	border-left-color: #d5dfe8;
+	background-attachment: fixed;
+	background-image: url("sj_01.gif"/*tpa=http://in0574.com/tool/images/sj_01.gif*/);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.e-small {	FONT-SIZE: 9px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; LETTER-SPACING: 1px
+}
+.t_13 {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #000000;
+	text-decoration: none;
+}
+.t_lan13 {
+	font-family: "宋体";
+	font-size: 13px;
+	color: #2864a6;
+	text-decoration: none;
+}
+
+
+
+
+
+/* CSS Document */
+a{text-decoration:none;color:#1B75BE}
+a:hover{text-decoration:underline}
+
+
+.sec_box_JSQ_table input,.bot_line_btnB,.btn_SER_Top,.td_fh input,a.Ico_aBox,.gj_tab td input.btn,.CD_tab tr.tr_on,.CD_tab tr.tr_kai_tit td,.ts_back input,.cy_so .btn,.sc_bot_div input,td.hb_time img,.hb_city_Chose a,div.sx_top input.btn,.xz_box,.zl_bot input,.WZ_CH,input.btn_comm,input.btn_blue_B,input.Back_IND{cursor:pointer!important;cursor:hand}
+
+
+
+/*图片整合 */
+.Ico_aBox_icon,.Ico_aBox_sha{ background-image:url("IND_Obg-1.gif"/*tpa=http://in0574.com/tool/images/IND_Obg.gif*/); background-repeat:no-repeat}
+a.Ico_aBox:hover{ background-image:url("IND_bgwide-1.gif"/*tpa=http://in0574.com/tool/images/IND_bgwide.gif*/); background-repeat:no-repeat}
+
+
+
+
+
+
+/*助理首页*/
+
+.IND_TJ_area{width:790px;overflow:hidden;margin-left:-10px}
+
+/*图标推荐区*/
+	a.Ico_aBox{ display:block; position:relative;width:250px; height:60px; float:left; margin-left:10px; margin-top:9px; }
+	a.Ico_aBox:hover{ text-decoration:none; background-position:-7px -4px}
+	
+	
+	
+		.Ico_aBox_icon{ position:absolute; top:9px; left:5px; width:42px; height:42px}
+		.Ico_aBox_tit{ position:absolute; left:56px; top:14px;font-size:12px; font-weight:bold; color:#2864A6}
+		.Ico_aBox_intro{position:absolute; left:56px; top:34px;font-size:12px}
+		
+		.Ico_aBox_sha{ position:absolute; left:5px; top:44px;width:44px; height:5px; background-position:-17px -170px}
+		
+		a.Ico_aBox:hover .Ico_aBox_sha{background-position:-104px -170px}
+		a.Ico_aBox .Ico_aBox_intro{ color:#A5A5A5}
+		a.Ico_aBox:hover .Ico_aBox_intro{ color:#666}
+		
+
+
+
+		
+		
+		
+		
+	.INico1{ background-position:-18px -94px}/*天气*/
+	.INico2{ background-position:-75px -94px}/*公交*/
+	.INico4{ background-position:-1532px -15px}/*计算器*/
+	.INico3{ background-position:-183px -94px}/*火车*/
+	.INico5{ background-position:-235px -94px}/*航班*/
+	.INico6{ background-position:-285px -94px}/*酒店*/
+	.INico7{ background-position:-336px -94px}/*违章*/
+	.INico8{ background-position:-387px -94px}/*节日*/
+	.INico9{ background-position:-438px -94px}/*旅游*/
+	.INico10{ background-position:-1415px -5px}/*IP地址*/
+	.INico40{ background-position:-1635px -15px}/*菜谱*/
+	.INico41{ background-position:-1365px -5px}/*美食*/
+	.INico42{ background-position:-1465px -5px}/*卫星地图*/
+	.INico43{ background-position:-1585px -15px}/*驾车导航*/
+	
+	.INico11{ background-position:-544px -94px}/*网上报税*/
+	.INico12{ background-position:-595px -94px}/*企业查询*/
+	.INico13{ background-position:-645px -94px}/*招聘人才*/
+	
+	.INico14{ background-position:-691px -94px}/*供电信息*/
+	.INico15{ background-position:-740px -94px}/*水费查询*/
+	.INico16{ background-position:-790px -94px}/*公积金查询*/
+	.INico17{ background-position:-840px -94px}/*便民电话*/
+	.INico18{ background-position:-890px -94px}/*邮政编码*/
+	.INico19{ background-position:-1190px -25px}/*身份证查询*/
+	.INico20{ background-position:-986px -94px}/*看医生*/
+	.INico21{ background-position:-1037px -94px}/*查银行帐户*/
+	.INico22{ background-position:-1132px -94px}/*生活百科*/
+	.INico23{ background-position:-1685px -15px}/*成语词典*/
+	.INico25{ background-position:-1240px -94px}/*结交朋友*/
+	
+	.INico26{ background-position:-1290px -94px}/*看电影*/
+	.INico27{ background-position:-1330px -94px}/*听音乐*/
+	.INico28{ background-position:-1370px -94px}/*聊天*/
+	.INico29{ background-position:-1410px -94px}/*看书*/
+	.INico30{ background-position:-1460px -94px}/*电视节目*/
+
+	.INico31{ background-position:-1500px -94px}/*法律咨询*/
+	.INico32{ background-position:-1550px -94px}/*炒股*/
+	.INico33{ background-position:-1600px -94px}/*保险公司*/
+	.INico34{ background-position:-1650px -94px}/*百姓办事*/
+	.INico35{ background-position:-1700px -94px}/*购物*/
+	.INico36{ background-position:-1750px -94px}/*学校*/
+	.INico37{ background-position:-1800px -94px}/*学校*/
+	.INico38{ background-position:-1850px -94px}/*软件下载*/
+	.INico39{ background-position:-1895px -94px}/*全能搜*/
+
+/*结尾颜色*/
+.mcy{color:#FF9900;}

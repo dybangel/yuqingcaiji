@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.seotitle/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+
+<link href="{dede:global.cfg_templeturl /}/default/style/disaiwang.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+{dede:include filename="toubu.htm"/}
+
+<div class="zb">
+  <div class="lb lf">
+    
+    <div class="wz">您所在的位置：{dede:field name='position'/}</div>
+    <!-- 位置 over -->
+    
+    {dede:list pagesize='10'}
+    <div class="wzlb">
+      <div class="wzlb1"><a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title/]</a>[field:pubdate function="GetDateTimeMK(@me)"/]</div>
+      <div class="wzlb2">
+        <div class="wzlb201">[field:description/]...<a href="[field:arcurl/]" title="[field:title/]" target="_blank">[详细]</a>
+        </div>
+        <div class="wzlb202"> 
+            <a href="[field:arcurl/]" title="[field:title/]" target="_blank"><img src="[field:litpic/]" border="0" width="100" height="75"  /></a>
+        </div>
+      </div>
+    </div>
+    {/dede:list}
+    <!-- 文字列表 over -->
+    
+
+    
+    <div class="dede_pages">
+			<ul class="pagelist">
+{dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="3"/}
+
+			</ul>
+    </div><!-- /pages -->
+
+
+    
+    
+  </div>
+  <!-- 图文左边 over -->
+  <div class="tw2 rf">
+ {dede:myad name='3'/} 
+ <!-- 栏目列表over -->    
+    
+      
+  
+    <div class="ty">
+      <h3 class="zal">国际新闻</h3>
+      <p class="zag"><a href="/plus/list.php?tid=29" target="_blank"  >更多>></a></p>
+    </div>
+    
+    <div class="tw2z">
+    
+{dede:arclist row=1 orderby=pubdate type='image.' titlelen='20'  infolen='80'  typeid='29' flag='c'}
+      <dl class="twdlz">
+        <dt><a href="[field:arcurl/]" target="_blank" title="[field:title/]"><img src="[field:litpic/]" border="0" width="108" height="81"  /></a></dt>
+        <dd>
+        <span class="title"><a href="[field:arcurl/]" target="_blank" title="[field:title/]"> [field:title/] </a></span>
+        <span>[field:info/]…</span>
+        </dd>
+      </dl>
+{/dede:arclist}	
+
+
+      <ul class="scp">
+{dede:arclist  titlelen='32' row='10' typeid='29' }
+<li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+{/dede:arclist}
+
+            </ul>
+    </div>
+    <!-- 图文右边 新闻 over -->
+    <div class="ty mor4">
+      <h3 class="zal">民生新闻</h3>
+      <p class="zag"><a href="/plus/list.php?tid=30" target="_blank"  >更多>></a></p>
+    </div>
+    
+    <div class="tw2z">
+    
+{dede:arclist row=1 orderby=pubdate type='image.' titlelen='20'  infolen='80'  typeid='30' flag='c'}
+      <dl class="twdlz">
+        <dt><a href="[field:arcurl/]" target="_blank" title="[field:title/]"><img src="[field:litpic/]" border="0" width="108" height="81"  /></a></dt>
+        <dd>
+        <span class="title"><a href="[field:arcurl/]" target="_blank" title="[field:title/]"> [field:title/] </a></span>
+        <span>[field:info/]…</span>
+        </dd>
+      </dl>
+{/dede:arclist}
+
+
+      
+      
+      <ul class="scp">
+{dede:arclist  titlelen='32' row='10' typeid='30' }
+<li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+{/dede:arclist}
+      </ul>
+    </div>
+    <!-- 图文右边 基地 over -->
+    <div class="ty mor4">
+      <h3 class="zal">最新文章</h3>
+      <p class="zag"><a href="#" target="_blank"  ></a></p>
+    </div>
+    
+    <div class="tw2z">
+    
+    
+{dede:arclist row=1 orderby=pubdate type='image.' titlelen='20'  infolen='80'  typeid='' flag='c'}
+      <dl class="twdlz">
+        <dt><a href="[field:arcurl/]" target="_blank" title="[field:title/]"><img src="[field:litpic/]" border="0" width="108" height="81"  /></a></dt>
+        <dd>
+        <span class="title"><a href="[field:arcurl/]" target="_blank" title="[field:title/]"> [field:title/] </a></span>
+        <span>[field:info/]…</span>
+        </dd>
+      </dl>
+{/dede:arclist}
+      
+      <ul class="scp">
+{dede:arclist  titlelen='32' row='6' typeid='' }
+<li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+{/dede:arclist}
+      </ul>
+    </div>
+    <!-- 图文右边 基地 over -->
+    <div class="ty mor4">
+      <h3 class="zal">推荐文章</h3>
+      <p class="zag"><a href="#" target="_blank"  ></a></p>
+    </div>
+    
+    <div class="tw2zf">
+    {dede:arclist row=1 orderby=pubdate type='image.' titlelen='20'  infolen='80'  type='commend' flag='c'}
+      <dl class="twdlz">
+        <dt><a href="[field:arcurl/]" target="_blank" title="[field:title/]"><img src="[field:litpic/]" border="0" width="108" height="81"  /></a></dt>
+        <dd>
+        <span class="title"><a href="[field:arcurl/]" target="_blank" title="[field:title/]"> [field:title/] </a></span>
+        <span>[field:info/]…</span>
+        </dd>
+      </dl>
+{/dede:arclist}
+      <ul class="scp">
+{dede:arclist  titlelen='32' row='6' type='commend' }
+<li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a></li>
+{/dede:arclist}
+      </ul>
+    </div>
+    <!-- 图文右边 特色 over -->
+  </div>
+  <!-- 图文右边 over -->
+</div>
+<!-- 图文 over -->
+
+{dede:include filename="dibu.htm"/}
+</body>
+</html>

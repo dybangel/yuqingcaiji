@@ -1,0 +1,4 @@
+INSERT INTO `dede58_uploads` VALUES('1','43','勒索病毒勒索世界 想付赎金未必给你解锁','/bigscreen4/uploads/allimg/181129/005104BI-0.png','1','427','264','0','153487','1543423864','1');
+INSERT INTO `dede58_uploads` VALUES('2','43','勒索病毒勒索世界 想付赎金未必给你解锁','/bigscreen4/uploads/allimg/181129/00510420A-1.png','1','379','229','0','142261','1543423865','1');
+INSERT INTO `dede58_uploads` VALUES('3','43','勒索病毒勒索世界 想付赎金未必给你解锁','/bigscreen4/uploads/allimg/181129/005104JP-2.png','1','475','317','0','286283','1543423865','1');
+INSERT INTO `dede58_uploads` VALUES('4','43','勒索病毒勒索世界 想付赎金未必给你解锁','/bigscreen4/uploads/allimg/181129/00510433H-3.gif','1','1','1','0','1095','1543423865','1');

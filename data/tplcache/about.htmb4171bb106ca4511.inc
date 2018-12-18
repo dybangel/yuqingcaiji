@@ -1,0 +1,46 @@
+<?php
+$z[0]=Array("field","",321,344);
+$z[0][4]['name']="typename";
+$z[1]=Array("global","",347,380);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("type","\r\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"[field:typename/]\" href=\"[field:typeurl/]\" />\r\n",484,623);
+$z[2][4]['typeid']="1";
+$z[3]=Array("type","\r\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"[field:typename/]\" href=\"[field:typeurl/]\" />\r\n",625,764);
+$z[3][4]['typeid']="2";
+$z[4]=Array("type","\r\n<link rel=\"alternate\" type=\"application/rss+xml\" title=\"[field:typename/]\" href=\"[field:typeurl/]\" />\r\n",766,905);
+$z[4][4]['typeid']="3";
+$z[5]=Array("include","",2062,2096);
+$z[5][4]['filename']="nav.htm";
+$z[6]=Array("field","",2356,2379);
+$z[6][4]['name']="typename";
+$z[7]=Array("field","",2436,2457);
+$z[7][4]['name']="content";
+$z[8]=Array("include","",3017,3055);
+$z[8][4]['filename']="pinglun.htm";
+$z[9]=Array("global","",5221,5246);
+$z[9][4]['name']="cfg_cmsurl";
+$z[10]=Array("global","",5796,5826);
+$z[10][4]['name']="cfg_webi";
+$z[11]=Array("global","",6049,6079);
+$z[11][4]['name']="cfg_webi";
+$z[12]=Array("global","",6247,6277);
+$z[12][4]['name']="cfg_lxdz";
+$z[13]=Array("arclist","\r\n			<li><a href=\"[field:arcurl /]\">[field:title /]</a></li>\r\n                ",6486,6635);
+$z[13][4]['row']="10";
+$z[13][4]['titlelen']="24";
+$z[13][4]['orderby']="pubdate";
+$z[14]=Array("arclist","\r\n		<li class=\"recentcomments\"><span class=\"comment-author-link\">[field:typename /]</span>《<a href=\"[field:arcurl /]\">[field:title /]</a>》</li>\r\n		",6818,7040);
+$z[14][4]['row']="10";
+$z[14][4]['titlelen']="24";
+$z[14][4]['orderby']="commend";
+$z[15]=Array("flink","\r\n	<li>[field:link /]</li>\r\n	",7184,7260);
+$z[15][4]['linktype']="2";
+$z[15][4]['row']="10";
+$z[16]=Array("channel","\r\n<li class=\"cat-item cat-item-6\"><a href=\"[field:typelink/]\" >[field:typename/]</a></li>\r\n",7395,7548);
+$z[16][4]['type']="top";
+$z[16][4]['noself']="yes";
+$z[16][4]['row']="10";
+$z[17]=Array("include","",8074,8110);
+$z[17][4]['filename']="dbmbs.htm";
+
+?>

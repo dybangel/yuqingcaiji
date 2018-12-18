@@ -1,0 +1,1 @@
+<li>・<a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a>[field:pubdate]</li>

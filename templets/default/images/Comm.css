@@ -1,0 +1,188 @@
+body,div,ol,dl,dt,dd,ul,li,form,input,button,img,cite,h1,h2,h3,h4,h5,h6{padding:0;margin:0}
+body,td,p,a,div,select,input,textarea,dl,dt,dd {font-size:12px}
+body {font:12px "宋体",Arial,Verdana,sans-serif;line-height:20px;color:#2c2c2c;background:#FFF url("Bgs2.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs2.png*/) repeat-x 0 -1607px}
+ul,li {list-style-type:none}
+img, table, td, th {border:0}
+a img{border:none}
+select,input {vertical-align:middle}
+a {color:#333;text-decoration:none}
+a:hover {color:#06C;text-decoration:underline}
+.t1 {color:#06C}
+.t1 a:link,.t1 a:active,.t1 a:visited {color:#06C;text-decoration:underline}
+.fRed {color:#F06}
+.fRed a:link,.fRed a:active,.fRed a:visited {color:#F06;text-decoration:underline}
+.fGray {color:#888888}
+.fGray a:link,.fGray a:active,.fGray a:visited {color:#888888;text-decoration:underline}
+.f14,.f14 td {font-size:14px}
+.fBlue,.fBlue a:link,.fBlue a:avtive,.fBlue a:visited {color:#0066CC;text-decoration:none}
+.fBlue a:hover {color:#CC0069;text-decoration:underline}
+.sign {color:#999999}
+.left{float:left}
+.right{float:right}
+.height{margin:0 auto;width:100%;font-size:0px;clear:both;overflow:hidden}
+.height_10{margin:0 auto;height:10px;font-size:0px;clear:both;overflow:hidden}
+.width{float:left;height:1px;font-size:0px;overflow:hidden}
+.width_10{float:left;height:1px;width:10px;font-size:0px;overflow:hidden}
+.clearit {clear:both;font-size:0;line-height:0;height:0;overflow:hidden}
+.date1 {FONT-SIZE: 8pt;COLOR: #666666;FONT-FAMILY: "Arial", "Helvetica", "sans-serif"}
+.picBox { border:1px solid #C1D4EA; }
+
+.fontArial {font-family:Arial, Helvetica, sans-serif, "宋体"}
+h1 {clear:both;text-align:center;height:48px;line-height:48px;font-weight:normal;font-size:18px;font-family:黑体, Verdana, Geneva, sans-serif}
+
+#COMM_All{clear:both;margin:0 auto;width:950px}
+.COMM{clear:both;margin:0 auto;width:950px}
+.comm_M {clear:both;width:586px;margin:0 auto}
+
+/* 头部 */
+#Head {clear:both;margin:0 auto;width:950px;height:78px;overflow:hidden}
+	#Head #Tlogo {float:left;width:210px;height:78px;background:url("Bgs.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs.png*/) no-repeat -310px 0px}
+		#Head #Tlogo a {display:block;width:210px;height:56px;text-indent:-9999px}
+	#Head #headC {float:right;width:730px;height:78px;overflow:hidden} 
+		#Head #head_1 {clear:both;height:33px}
+			#Head #head_1 ul {float:right;margin:8px 0 0 0;height:22px;text-align:left}
+				#Head #head_1 ul li {float:left;height:22px;color:#CC0069;line-height:22px;text-align:left;padding-left:12px;padding-right:10px;background:url("Bgs.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs.png*/) no-repeat -519px -100px}
+					#Head #head_1 ul li.cc {background:none}
+			#Head #head_1 a,#Head #head_1 a:visited {color:#666;text-decoration:none}
+			#Head #head_1 p {float:right;margin:8px 0 0 10px;width:79px;height:20px;background:url("Bgs.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs.png*/) no-repeat 0 -68px;overflow:hidden}
+				#Head #head_1 p a {display:block;width:79px;height:20px;font-size:0px;line-height:0px;text-indent:-9999px}
+		#Head #head_2 {clear:both;height:38px}
+			#Head #head_2 ul {float:right;padding-right:2px;height:38px}
+				#Head #head_2 ul li {float:left;width:82px;height:38px;text-align:center;line-height:36px;font-size:14px;background:url("Bgs2.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs2.png*/) no-repeat right top}
+					#Head #head_2 ul li.hov {float:left;width:92px;height:38px;background:url("Bgs.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs.png*/) no-repeat}
+					#Head #head_2 ul li a,#Head #head_2 ul li a:visited {color:#0051A2;font-size:14px;font-weight:bold;text-decoration:none}
+					#Head #head_2 ul li a:hover {color:#09F;font-size:14px;font-weight:bold;text-decoration:none}
+					#Head #head_2 ul li.hov a,#Head #head_2 ul li.hov a:visited {color:#06C;font-size:14px;font-weight:bold;text-decoration:none}
+
+
+/* 尾部 */
+#Footer {clear:both;margin:15px 0 0 0;padding:12px 0 12px 0;text-align:center;background-color:#E6F3FB;background:url("Bgs2.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs2.png*/) repeat-x 0 -40px}
+	#Footer #footer_1 {color:#167BB5;text-align:center;line-height:22px}
+		#Footer #footer_1 a,#Footer #footer_1 a:visited {color:#167BB5;text-decoration:none}
+
+
+.mLeft {float:left;width:252px}
+.mRight {float:right;width:688px}
+
+.blockTit1 {color:#0051A2;font-size:14px}
+.blockTit2 {color:#0051A2;font-size:14px}
+
+/* 	按钮们 */
+.input8 {width:140px;height:22px;text-align:left;line-height:22px;color:#06C;text-indent:4px;border:none;background:url("Bgs.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs.png*/) no-repeat 0 -458px;overflow:hidden}
+.button1 {width:40px;height:25px;line-height:25px;color:#069;text-align:center;background:url("Bgs.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs.png*/) no-repeat -112px 0;border:0;overflow:hidden}
+.button8 {width:75px;height:22px;line-height:22px;color:#06C;text-align:center;background:url("Bgs.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs.png*/) no-repeat -152px -458px;border:0;overflow:hidden}
+.button2 {width:100px;height:34px;line-height:34px;color:#27448C;font-size:14px;font-weight:bold;text-align:center;background:url("Bgs.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs.png*/) no-repeat 0 -500px;border:0;overflow:hidden}
+
+/* 用户登陆 */
+#uLogin {clear:both;width:252px;height:201px;background:#FFF url("Bgs.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs.png*/) no-repeat 0 -118px}
+	#uLogin #uLogin_1 {clear:both;height:52px;line-height:28px;text-align:left;text-indent:22px}
+	#uLogin #uLogin_2 {clear:both;padding-left:23px;text-align:left}
+		#uLogin #uLogin_2 .aa1 {float:left;padding-bottom:12px;width:57px;height:22px;text-align:left;line-height:22px}
+		#uLogin #uLogin_2 .aa2 {float:left;padding-bottom:12px;width:172px;height:22px;text-align:left}
+			#uLogin #uLogin_2 .aa2 input {width:144px;height:18px}
+			#uLogin #uLogin_2 .aa2 select {width:146px}
+		#uLogin #uLogin_2 .aa0 {clear:both;padding-left:22px;padding-bottom:12px;height:22px;text-align:left;line-height:22px}
+
+#Block1 {clear:both;width:250px;border:1px solid #C5E4FF;background:url("Bgs2.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs2.png*/) repeat-x 0 -288px}
+	#Block1 #Block1_1 {clear:both;height:33px;line-height:32px;text-align:left;text-indent:28px;background:url("Bgs.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs.png*/) no-repeat -500px -128px}
+	#Block1 #Block1_2 {clear:both;padding:12px 0 0 12px;text-align:left}
+		#Block1 #Block1_2 .aa3 {float:left;width:64px;height:29px;line-height:22px;text-align:left}
+		#Block1 #Block1_2 .aa4 {float:left;width:230px;height:29px;line-height:22px;text-align:left}
+		#Block1 #Block1_2 .aa5 {float:left;width:230px;height:29px;line-height:22px;text-align:left}
+
+.Block2 {clear:both;width:686px;border:1px solid #DCDCDC;overflow:hidden}
+	.Block2 .Block2_titbar {clear:both;height:34px;background:url("Bgs2.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs2.png*/) repeat-x 0 -528px}
+		.Block2 .Block2_titbar .tit1 {float:left;height:34px;line-height:34px;text-align:left;text-indent:12px}
+		.Block2 .Block2_titbar .righttit {float:right;padding-right:12px;height:34px;line-height:34px;text-align:left;color:#8999B0}
+
+/* 推荐分类 */
+#fenLei {clear:both;width:686px;height:106px;border:1px solid #E3E3E3;background-color:#FDFDF9}
+	#fenLei #fenLei_1 {clear:both;padding:8px 0 0 8px}
+	#fenLei ul {float:left;padding:0 5px 0 7px;width:100px;height:92px;border-right:1px solid #E3E3E3;overflow:hidden}
+		#fenLei ul.ul1 {border:none} 
+		#fenLei ul li {clear:both;height:23px;line-height:23px;text-align:left}
+
+/* 加急信息 */
+.Block3 {clear:both;width:250px;border:1px solid #C5E4FF;border-top:none;background:url("Bgs2.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs2.png*/) repeat-x 0 -580px}
+	.Block3 .Block3_titbar {clear:both;height:31px}
+		.Block3 .Block3_titbar .tit2 {float:left;height:31px;line-height:31px;text-align:left;text-indent:10px}
+		.Block3 .Block3_titbar .righttit2 {float:right;padding-right:10px;height:31px;line-height:31px;text-align:left;color:#8999B0}
+.list1 {clear:both;padding:10px 5px 0 10px}
+	.list1 ul {clear:both}
+		.list1 ul li {clear:both;height:23px;line-height:23px;text-align:left}
+
+/* 最新招聘 */
+.titBarA {clear:both;width:688px;height:27px;background:#FFF url("Bgs2.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs2.png*/) repeat-x 0 -980px;border-right:1px solid #E5E5E5}
+	.titBarA_1 {float:left;height:27px;line-height:27px;text-align:left;text-indent:32px;background:url("Bgs.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs.png*/) no-repeat -497px -172px}
+	.BarA_ri {float:right;padding-right:10px;height:27px;line-height:27px}
+		.BarA_ri a,.BarA_ri a:visited {color:#06C}
+.Box1 {clear:both;width:686px;border:1px solid #E5E5E5}
+.jobList1 {clear:both;padding:8px 0 0 10px}
+	.jobList1 ul {clear:both}
+		.jobList1 ul li {float:left;padding-left:10px;color:#8C8C8C;width:323px;height:26px;line-height:26px;text-align:left;background:url("Bgs.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs.png*/) no-repeat -516px -203px}
+			.jobList1 ul li span a,.jobList1 ul li span a:visited {color:#06C}
+
+/* 职场动态 */
+.Block4 {clear:both;width:250px;border:1px solid #E0DEDF;background:url("Bgs2.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs2.png*/) repeat-x 0 -1068px}
+	.Block4 .Block4_titbar {clear:both;height:29px}
+		.Block4 .Block4_titbar .tit3 {float:left;height:29px;line-height:29px;text-align:left;text-indent:10px}
+		.Block4 .Block4_titbar .righttit3 {float:right;padding-right:10px;height:29px;line-height:29px;text-align:left;color:#8999B0}
+
+/* 最新人才 */
+.titBarA_2 {float:left;height:27px;line-height:27px;text-align:left;text-indent:32px;background:url("Bgs.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs.png*/) no-repeat -497px -268px}
+.rencaiList1 {clear:both;padding:10px 0 0 10px}
+	.rencaiList1 ul {clear:both;width:676px;overflow:hidden}
+		.rencaiList1 ul li {float:left;margin:0 10px 8px 0;padding-left:10px;color:#464646;width:316px;height:26px;line-height:26px;text-align:left;border:1px solid #F2F2F2;background-color:#F9F9F9;overflow:hidden}
+			.rencaiList1 ul li.hov3 {float:left;margin:0 10px 8px 0;padding-left:10px;color:#D07E35;width:316px;height:26px;line-height:26px;text-align:left;border:1px solid #FFCC80;background-color:#FFC}
+			.rencaiList1 ul li a,.rencaiList1 ul li a:visited {color:#06C}
+				.rencaiList1 ul li.hov3 a,.rencaiList1 ul li.hov3 a:visited {color:#F06}
+			.rencaiList1 ul li span {float:right;padding-right:8px;color:#888;font-size:8pt;FONT-FAMILY: "Arial", "Helvetica", "sans-serif"}
+				.rencaiList1 ul li.hov3 span {float:right;padding-right:8px;color:#D07E35;font-size:8pt;FONT-FAMILY: "Arial", "Helvetica", "sans-serif"}
+				
+
+.titBarA_3 {float:left;height:27px;line-height:27px;text-align:left;text-indent:28px;background:url("Bgs.png"/*tpa=http://www.in0574.com/templets/job/Css/Bgs.png*/) no-repeat -504px -302px}
+.listR {clear:both;padding:12px;text-align:left}
+
+
+/*--- 提示页面 ---*/
+#jiwesdf {clear:both;text-align:center}
+#jiwesdf a,#jiwesdf a:visited {color:#06C;font-size:14px;text-decoration:underline}
+.sdf1 {color:#090;font-size:14px;font-weight:bold}
+.sdf2 {color:#F03;font-size:14px;font-weight:bold}
+
+.box2 {border:1px solid #BCD6E8}
+.bg_1 {background:url("bg_1.png"/*tpa=http://www.in0574.com/templets/job/Css/bg_1.png*/) repeat-y left top}
+.link {text-decoration:underline}
+
+/*============================================================================================================================*/
+
+.navLink td a,.navLink td a:visited {color:#06C;text-decoration:underline}
+
+
+/*CSS sabrosus style pagination分页css*/
+
+DIV.sabrosus {
+	PADDING-BOTTOM: 5px; MARGIN: 0px auto; PADDING-LEFT: 10px; PADDING-RIGHT: 5px; ZOOM: 1; FONT-FAMILY: "Microsoft YaHei","宋体";  COLOR: #666; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 5px;
+}
+DIV.sabrosus A {
+	BORDER-RIGHT: #BFE0F9 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #BFE0F9 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #BFE0F9 1px solid; COLOR: #397CBE; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #BFE0F9 1px solid; TEXT-DECORATION: none;
+}
+DIV.sabrosus A:hover {
+	BORDER-RIGHT:#397CBE 1px solid; BORDER-TOP:#397CBE 1px solid; BORDER-LEFT:#397CBE 1px solid; COLOR: #397CBE; BORDER-BOTTOM:#397CBE 1px solid; BACKGROUND-COLOR: lightyellow
+}
+DIV.pagination A:active {
+	BORDER-RIGHT: #EE2F2F 1px solid; BORDER-TOP: #EE2F2F 1px solid; BORDER-LEFT: #EE2F2F 1px solid; COLOR: #397CBE; BORDER-BOTTOM: #EE2F2F 1px solid; BACKGROUND-COLOR: lightyellow
+}
+DIV.sabrosus SPAN.thisclass {
+	BORDER-RIGHT: navy 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: navy 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: navy 1px solid; COLOR: #fff; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: navy 1px solid; BACKGROUND-COLOR: #397CBE
+}
+DIV.sabrosus SPAN.disabled {
+	BORDER-RIGHT: #BFE0F9 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #BFE0F9 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #BFE0F9 1px solid; COLOR: #397CBE; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #BFE0F9 1px solid
+}
+
+/*CSS sabrosus style pagination*/
+
+.picGg {clear:both;margin:0 auto 10px auto;width:948px;border:1px solid #C5E4FF;overflow:hidden}
+.picGg ul {clear:both;margin:0 0 0 6px;padding:6px 0 0 0px;width:942px}
+.picGg ul li {float:left;margin:0 6px 0 0;width:151px;height:54px;overflow:hidden}
+.picGg ul li img {width:151px;height:48px}

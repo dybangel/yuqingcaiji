@@ -1,0 +1,2 @@
+INSERT INTO `dede58_search_keywords` VALUES('1','大喊','大喊','9','1','1543421474','0','0');
+INSERT INTO `dede58_search_keywords` VALUES('2','123123','123123','1','0','1543421503','0','0');

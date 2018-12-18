@@ -1,0 +1,48 @@
+<?php
+$z[0]=Array("global","",308,363);
+$z[0][4]['name']="keyword";
+$z[0][4]['function']="RemoveXSS(@me)";
+$z[1]=Array("global","",376,409);
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("global","",688,721);
+$z[2][4]['name']="cfg_webname";
+$z[3]=Array("global","",812,845);
+$z[3][4]['name']="cfg_webname";
+$z[4]=Array("global","",940,973);
+$z[4][4]['name']="cfg_webname";
+$z[5]=Array("include","",2161,2195);
+$z[5][4]['filename']="nav.htm";
+$z[6]=Array("field","",2405,2434);
+$z[6][4]['name']="position";
+$z[7]=Array("list","\n	<article id=\"post-304\" class=\"post-304 post type-post status-publish format-standard hentry category-changdao-jingdian\">\n				<header class=\"entry-header\">\n			\n						<h1 class=\"entry-title\">\n				<a href=\"[field:arcurl/]\" rel=\"bookmark\">[field:title/]</a>\n			</h1>\n										<div class=\"comments-link\">\n					<a href=\"[field:arcurl/]#respond\" title=\"[field:title/]\"><span class=\"leave-reply\">发表回复</span></a>				</div><!-- .comments-link -->\n					</header><!-- .entry-header -->\n\n				<div class=\"entry-content\">\n			<p>[field:info function='cn_substr(@me,300)'/]...</p>\n<p><img alt=\"\" src=\"[field:picname/]\" /></p>\n<p>[field:info function='cn_substr(@me,100)'/] <a href=\"[field:arcurl/]\" class=\"more-link\">继续阅读 <span class=\"meta-nav\">&rarr;</span></a></p>\n					</div><!-- .entry-content -->\n		\n		<footer class=\"entry-meta\">\n			本条目发布于<a href=\"[field:arcurl/]\" title=\"上午10:19\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"2014-04-12T10:19:44+00:00\">[field:pubdate function=\"GetDateMK(@me)\"/]</time></a>。属于<a href=\"[field:typeurl /]\" rel=\"category tag\">[field:typename /]</a>分类。<span class=\"by-author\">作者是<span class=\"author vcard\"><a class=\"url fn n\" href=\"#\" title=\"查看所有由[field:writer /]发布的文章\" rel=\"author\">guzhaowen</a></span>。</span>								</footer><!-- .entry-meta -->\n	</article><!-- #post -->\n",2490,3912);
+$z[7][4]['pagesize']="5";
+$z[7][4]['titlelen']="38";
+$z[8]=Array("pagelist","",3948,3977);
+$z[8][4]['listsize']="4";
+$z[9]=Array("global","",4164,4189);
+$z[9][4]['name']="cfg_cmsurl";
+$z[10]=Array("global","",4720,4750);
+$z[10][4]['name']="cfg_webi";
+$z[11]=Array("global","",4973,5003);
+$z[11][4]['name']="cfg_webi";
+$z[12]=Array("global","",5170,5200);
+$z[12][4]['name']="cfg_lxdz";
+$z[13]=Array("arclist","\n			<li><a href=\"[field:arcurl /]\">[field:title /]</a></li>\n                ",5391,5538);
+$z[13][4]['row']="10";
+$z[13][4]['titlelen']="24";
+$z[13][4]['orderby']="pubdate";
+$z[14]=Array("arclist","\n		<li class=\"recentcomments\"><span class=\"comment-author-link\">[field:typename /]</span>《<a href=\"[field:arcurl /]\">[field:title /]</a>》</li>\n		",5709,5929);
+$z[14][4]['row']="10";
+$z[14][4]['titlelen']="24";
+$z[14][4]['orderby']="commend";
+$z[15]=Array("flink","\n	<li>[field:link /]</li>\n	",6063,6137);
+$z[15][4]['linktype']="2";
+$z[15][4]['row']="10";
+$z[16]=Array("channel","\n<li class=\"cat-item cat-item-6\"><a href=\"[field:typelink/]\" >[field:typename/]</a></li>\n",6265,6416);
+$z[16][4]['type']="top";
+$z[16][4]['noself']="yes";
+$z[16][4]['row']="10";
+$z[17]=Array("include","",6923,6959);
+$z[17][4]['filename']="dbmbs.htm";
+
+?>

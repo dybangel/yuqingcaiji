@@ -1,0 +1,24 @@
+User-agent: * 
+Disallow: /plus/ad_js.php
+Disallow: /plus/advancedsearch.php
+Disallow: /plus/car.php
+Disallow: /plus/carbuyaction.php
+Disallow: /plus/shops_buyaction.php
+Disallow: /plus/erraddsave.php
+Disallow: /plus/posttocar.php
+Disallow: /plus/disdls.php
+Disallow: /plus/feedback_js.php
+Disallow: /plus/mytag_js.php
+Disallow: /plus/rss.php
+Disallow: /plus/search.php
+Disallow: /plus/recommend.php
+Disallow: /plus/stow.php
+Disallow: /plus/count.php
+Disallow: /include
+Disallow: /templets
+#  * CMS源码工作室 http://www.cmsym.com
+#  * 专业开发DEDECMS源码 帝国CMS源码
+#  * 73源码网www.73ym.com 精品商业源码下载http://www.73ym.com
+#
+#  *买精品源码，站长交易平台http://zz.188jy.com：源码集市：http://zz.188jy.com/product/search_a1v.html
+#  *有需求，站长交易平台http://zz.188jy.com：服务市场：http://zz.188jy.com/product/search_a5v.html
